@@ -1,7 +1,7 @@
 name:                lacroix
-version:             0.1.0.0
+version:             0.2.0.0
 synopsis:            fizzy n dizzy
-description:         crack open a cold one with the boys 
+description:         crack open a cold one with the boys
 homepage:            https://github.com/chessai/lacroix
 license:             MIT
 author:              chessai
@@ -12,7 +12,7 @@ extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
 library
-  exposed-modules:     Acme.Lacroix
+  exposed-modules:     Lacroix
   build-depends:       base >= 3 && <6
-  hs-source-dirs:      src
+  hs-source-dirs:      .
   default-language:    Haskell2010
